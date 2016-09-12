@@ -1,4 +1,5 @@
 " Vim color file
+" m
 " Converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
 "
 hi clear
@@ -8,7 +9,7 @@ if version > 580
     endif
 endif
 set t_Co=256
-let colors_name="sublime"
+let colors_name="monokai"
 
 if has("gui_running")
     set background=dark
