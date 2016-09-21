@@ -109,7 +109,7 @@ hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=N
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=243 ctermbg=235 cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
 hi CursorLineNr ctermfg=243 ctermbg=237 cterm=NONE guifg=#797A77 guibg=#3c3d37 gui=NONE
-hi folded ctermfg=231 ctermbg=235 cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
-hi FoldColumn ctermfg=231 ctermbg=235 cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
+hi folded ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
+hi FoldColumn ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
 
 
