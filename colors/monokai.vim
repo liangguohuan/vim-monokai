@@ -15,13 +15,13 @@ if has("gui_running")
     set background=dark
 endif
 
-hi Normal ctermfg=251 ctermbg=256 cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
+hi Normal ctermfg=251 ctermbg=NONE cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi TabLine guifg=#646460 ctermfg=241 guibg=#3D3D38 ctermbg=237 gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#3D3D38 ctermbg=237 gui=NONE cterm=NONE
 hi TabLineSel guifg=#CCCCCC ctermfg=255 guibg=#646460 ctermbg=241 gui=NONE cterm=NONE
-hi StatusLine guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=256 gui=NONE cterm=NONE
+hi StatusLine guifg=NONE ctermfg=251 guibg=#272822 ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineNC guifg=#646460 ctermfg=241 guibg=#1B1C18 ctermbg=234 gui=NONE cterm=NONE
 hi VertSplit guifg=#3D3D38 ctermfg=237 guibg=#646460 ctermbg=241 gui=NONE cterm=NONE
 hi PMenu guifg=NONE ctermfg=NONE guibg=#3D3D38 ctermbg=237 gui=NONE cterm=NONE
@@ -81,8 +81,8 @@ hi Todo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=UNDERLINE cterm=UNDE
 
 
 hi phpDefine guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpVarSelector ctermfg=251 ctermbg=256 cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
-hi phpIdentifier ctermfg=251 ctermbg=256 cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
+hi phpVarSelector ctermfg=251 ctermbg=NONE cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
+hi phpIdentifier ctermfg=251 ctermbg=NONE cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
 hi phpMemberSelector guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 hi pythonFunction ctermfg=81 cterm=NONE ctermfg=Green ctermbg=NONE gui=NONE guifg=#80a0ff guibg=NONE
@@ -107,7 +107,7 @@ hi MatchParen guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=UNDERLINE cter
 hi Cursor ctermfg=230 ctermbg=240 cterm=NONE guifg=#1c1c1c guibg=#808080 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi LineNr ctermfg=243 ctermbg=256 cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
+hi LineNr ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
 hi CursorLineNr ctermfg=243 ctermbg=237 cterm=NONE guifg=#797A77 guibg=#3c3d37 gui=NONE
 hi folded ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
 hi FoldColumn ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
