@@ -38,10 +38,10 @@ hi WarningMsg guifg=#1B1C18 ctermfg=234 guibg=#FD971F ctermbg=208 gui=NONE cterm
 hi Directory guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#646460 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#646460 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#A6E22E ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffText guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=REVERSE cterm=REVERSE
+hi DiffAdd    guifg=NONE    guibg=#13354A ctermbg=NONE ctermbg=24 gui=NONE cterm=NONE
+hi DiffChange guifg=#89807D guibg=#4C4745 ctermfg=181 ctermbg=239 gui=NONE cterm=NONE
+hi DiffDelete guifg=#960050 guibg=#1E0010 ctermfg=162 ctermbg=53 gui=NONE cterm=NONE
+hi DiffText   guifg=NONE    guibg=#4C4745 gui=italic,bold ctermbg=102 cterm=bold
 hi Comment guifg=#777774 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
