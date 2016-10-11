@@ -40,7 +40,7 @@ hi NonText guifg=#646460 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#646460 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd    guifg=NONE    guibg=#00005F ctermbg=NONE ctermbg=17 gui=NONE cterm=NONE
 hi DiffChange guifg=#D7AFAF guibg=#820000 ctermfg=181 ctermbg=88 gui=NONE cterm=NONE
-hi DiffDelete guifg=#960050 guibg=#080808 ctermfg=125 ctermbg=232 gui=NONE cterm=NONE
+hi DiffDelete     term=bold ctermfg=9 ctermbg=3 gui=bold guifg=#FF5555 guibg=#AA5500
 hi DiffText   guifg=NONE    guibg=#5C0000 gui=italic ctermbg=52 cterm=NONE
 hi Comment guifg=#777774 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -109,7 +109,6 @@ hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=N
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
 hi CursorLineNr ctermfg=243 ctermbg=237 cterm=NONE guifg=#797A77 guibg=#3c3d37 gui=NONE
-hi folded ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
+hi folded ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi FoldColumn ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
-
 
