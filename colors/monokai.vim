@@ -55,10 +55,10 @@ hi Statement guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Conditional guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Operator guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Operator guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#F92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
-hi PreProc ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
+hi PreProc guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Define ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Macro ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
@@ -78,7 +78,6 @@ hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=UNDERLINE cter
 hi Ignore guifg=#646460 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#CCCCCC ctermfg=255 guibg=#F92672 ctermbg=197 gui=NONE cterm=NONE
 hi Todo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=UNDERLINE cterm=UNDERLINE
-
 
 hi phpDefine guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpVarSelector ctermfg=251 ctermbg=NONE cterm=NONE guifg=#CCCCCC guibg=#272822 gui=NONE
@@ -111,4 +110,10 @@ hi LineNr ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NO
 hi CursorLineNr ctermfg=243 ctermbg=237 cterm=NONE guifg=#797A77 guibg=#3c3d37 gui=NONE
 hi folded ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi FoldColumn ctermfg=243 ctermbg=NONE cterm=NONE guifg=#797A77 guibg=#272822 gui=NONE
+
+" gitgutter
+hi GitGutterAdd ctermfg=3 guifg=#B58900
+hi GitGutterChange ctermfg=4 guifg=#268BD2
+hi GitGutterDelete ctermfg=1 guifg=#DC322F
+hi GitGutterChangeDelete ctermfg=228 guifg=#FFFF87
 
